@@ -99,6 +99,8 @@ class diy_ensemble():
         result_df = pd.DataFrame(result_dict)
         print("diy_bagging_function")
         return(result_df)
+    
+
     def diy_boosting(input_df, n_estimators=10, learning_rate=1.0, loss='linear', random_state=None):
         """
         
@@ -157,12 +159,6 @@ class diy_ensemble():
         result_df : pandas.DataFrame
 
         ----------------------------------------------
-        Bagging(Bootstrap Aggregating) is a ensemble method that combines multiple models to increase accuracy.
-        
-
-        Boosting
-
-
         Stacking
 
 
