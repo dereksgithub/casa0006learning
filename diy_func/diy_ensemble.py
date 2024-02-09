@@ -62,6 +62,7 @@ class diy_ensemble():
         
         Parameters
         ----------
+        para
         input_df: pandas.DataFrame
         target_df, 
         n_estimators=10, 
